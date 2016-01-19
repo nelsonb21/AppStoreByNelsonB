@@ -1,5 +1,5 @@
 # AppStoreByNelsonB
 
-Prueba de iOs de Gability. 
+Prueba de iOs. 
 
 Abrir el proyecto utilizando el archivo con la extensión .xcworkspace
