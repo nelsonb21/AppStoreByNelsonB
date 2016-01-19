@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D13FD651C4738C3006E06CB /* CategoriesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D13FD641C4738C3006E06CB /* CategoriesListTableViewController.swift */; };
+		2D13FD671C473D11006E06CB /* AppsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D13FD661C473D11006E06CB /* AppsTableViewController.swift */; };
+		2D3F15D51C4895A400497867 /* AppsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3F15D41C4895A400497867 /* AppsDetailsViewController.swift */; };
+		2D9FFEDF1C49F9D40076F0BD /* AppsGridCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FFEDE1C49F9D40076F0BD /* AppsGridCollectionViewController.swift */; };
+		2D9FFEE11C4ADB480076F0BD /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FFEE01C4ADB480076F0BD /* PopoverViewController.swift */; };
 		2DB2CEFC1C47283A00E694A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2CEFB1C47283A00E694A4 /* AppDelegate.swift */; };
-		2DB2CEFE1C47283A00E694A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2CEFD1C47283A00E694A4 /* ViewController.swift */; };
+		2DB2CEFE1C47283A00E694A4 /* PrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2CEFD1C47283A00E694A4 /* PrincipalViewController.swift */; };
 		2DB2CF011C47283A00E694A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB2CEFF1C47283A00E694A4 /* Main.storyboard */; };
 		2DB2CF041C47283A00E694A4 /* AppStoreByNelsonB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2CF021C47283A00E694A4 /* AppStoreByNelsonB.xcdatamodeld */; };
 		2DB2CF061C47283A00E694A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB2CF051C47283A00E694A4 /* Assets.xcassets */; };
-		2DB2CF091C47283A00E694A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB2CF071C47283A00E694A4 /* LaunchScreen.storyboard */; };
 		2DB2CF141C47283A00E694A4 /* AppStoreByNelsonBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2CF131C47283A00E694A4 /* AppStoreByNelsonBTests.swift */; };
 		2DB2CF1F1C47283A00E694A4 /* AppStoreByNelsonBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2CF1E1C47283A00E694A4 /* AppStoreByNelsonBUITests.swift */; };
+		2DB2CF2E1C47294900E694A4 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2CF2D1C47294900E694A4 /* WebService.swift */; };
+		2DB2CF301C47298900E694A4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2DB2CF2F1C47298900E694A4 /* Podfile */; };
+		2DF14C281C4C653500FA6FD3 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF14C271C4C653500FA6FD3 /* SplashViewController.swift */; };
+		47E45F1253DAD5F53CE0A96E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644437EC0DB7E5BBF77DB86B /* Pods.framework */; };
+		F43648B01C4D5BD500AB553D /* CategoriesGridCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43648AF1C4D5BD500AB553D /* CategoriesGridCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D13FD641C4738C3006E06CB /* CategoriesListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesListTableViewController.swift; sourceTree = "<group>"; };
+		2D13FD661C473D11006E06CB /* AppsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsTableViewController.swift; sourceTree = "<group>"; };
+		2D3F15D41C4895A400497867 /* AppsDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsDetailsViewController.swift; sourceTree = "<group>"; };
+		2D9FFEDE1C49F9D40076F0BD /* AppsGridCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsGridCollectionViewController.swift; sourceTree = "<group>"; };
+		2D9FFEE01C4ADB480076F0BD /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
 		2DB2CEF81C47283A00E694A4 /* AppStoreByNelsonB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreByNelsonB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB2CEFB1C47283A00E694A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2DB2CEFD1C47283A00E694A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DB2CEFD1C47283A00E694A4 /* PrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalViewController.swift; sourceTree = "<group>"; };
 		2DB2CF001C47283A00E694A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DB2CF031C47283A00E694A4 /* AppStoreByNelsonB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppStoreByNelsonB.xcdatamodel; sourceTree = "<group>"; };
 		2DB2CF051C47283A00E694A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2DB2CF081C47283A00E694A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DB2CF0A1C47283A00E694A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DB2CF0F1C47283A00E694A4 /* AppStoreByNelsonBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppStoreByNelsonBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB2CF131C47283A00E694A4 /* AppStoreByNelsonBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreByNelsonBTests.swift; sourceTree = "<group>"; };
@@ -49,6 +62,13 @@
 		2DB2CF1A1C47283A00E694A4 /* AppStoreByNelsonBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppStoreByNelsonBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB2CF1E1C47283A00E694A4 /* AppStoreByNelsonBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreByNelsonBUITests.swift; sourceTree = "<group>"; };
 		2DB2CF201C47283A00E694A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DB2CF2D1C47294900E694A4 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		2DB2CF2F1C47298900E694A4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2DF14C271C4C653500FA6FD3 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		644437EC0DB7E5BBF77DB86B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A041CB805D1A6261769F720 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CFAD6A9BA8A5422D914CF5F5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F43648AF1C4D5BD500AB553D /* CategoriesGridCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesGridCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47E45F1253DAD5F53CE0A96E /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +97,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27B0A645140CEF0931656FF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				644437EC0DB7E5BBF77DB86B /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2DB2CEEF1C47283A00E694A4 = {
 			isa = PBXGroup;
 			children = (
+				2DB2CF2F1C47298900E694A4 /* Podfile */,
 				2DB2CEFA1C47283A00E694A4 /* AppStoreByNelsonB */,
 				2DB2CF121C47283A00E694A4 /* AppStoreByNelsonBTests */,
 				2DB2CF1D1C47283A00E694A4 /* AppStoreByNelsonBUITests */,
 				2DB2CEF91C47283A00E694A4 /* Products */,
+				D0007DA054F26A52BC00089E /* Pods */,
+				27B0A645140CEF0931656FF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,10 +132,14 @@
 			isa = PBXGroup;
 			children = (
 				2DB2CEFB1C47283A00E694A4 /* AppDelegate.swift */,
-				2DB2CEFD1C47283A00E694A4 /* ViewController.swift */,
+				2DF14C271C4C653500FA6FD3 /* SplashViewController.swift */,
+				2DB2CEFD1C47283A00E694A4 /* PrincipalViewController.swift */,
+				2D13FD641C4738C3006E06CB /* CategoriesListTableViewController.swift */,
+				2DD15EFC1C4DD94900D2C220 /* iPhone Views */,
+				2DD15EFB1C4DD92E00D2C220 /* iPad Views */,
+				2DB2CF2C1C47291900E694A4 /* Miscellaneous */,
 				2DB2CEFF1C47283A00E694A4 /* Main.storyboard */,
 				2DB2CF051C47283A00E694A4 /* Assets.xcassets */,
-				2DB2CF071C47283A00E694A4 /* LaunchScreen.storyboard */,
 				2DB2CF0A1C47283A00E694A4 /* Info.plist */,
 				2DB2CF021C47283A00E694A4 /* AppStoreByNelsonB.xcdatamodeld */,
 			);
@@ -128,6 +164,42 @@
 			path = AppStoreByNelsonBUITests;
 			sourceTree = "<group>";
 		};
+		2DB2CF2C1C47291900E694A4 /* Miscellaneous */ = {
+			isa = PBXGroup;
+			children = (
+				2DB2CF2D1C47294900E694A4 /* WebService.swift */,
+			);
+			name = Miscellaneous;
+			sourceTree = "<group>";
+		};
+		2DD15EFB1C4DD92E00D2C220 /* iPad Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D9FFEDE1C49F9D40076F0BD /* AppsGridCollectionViewController.swift */,
+				2D9FFEE01C4ADB480076F0BD /* PopoverViewController.swift */,
+				F43648AF1C4D5BD500AB553D /* CategoriesGridCollectionViewController.swift */,
+			);
+			name = "iPad Views";
+			sourceTree = "<group>";
+		};
+		2DD15EFC1C4DD94900D2C220 /* iPhone Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D13FD661C473D11006E06CB /* AppsTableViewController.swift */,
+				2D3F15D41C4895A400497867 /* AppsDetailsViewController.swift */,
+			);
+			name = "iPhone Views";
+			sourceTree = "<group>";
+		};
+		D0007DA054F26A52BC00089E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFAD6A9BA8A5422D914CF5F5 /* Pods.debug.xcconfig */,
+				6A041CB805D1A6261769F720 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DB2CF231C47283A00E694A4 /* Build configuration list for PBXNativeTarget "AppStoreByNelsonB" */;
 			buildPhases = (
+				B2F4DC7D802C2EC56DCB7BBC /* Check Pods Manifest.lock */,
 				2DB2CEF41C47283A00E694A4 /* Sources */,
 				2DB2CEF51C47283A00E694A4 /* Frameworks */,
 				2DB2CEF61C47283A00E694A4 /* Resources */,
+				8DB440332B2740C2A15D4A97 /* Embed Pods Frameworks */,
+				96D7243FF3D0EEB9A6DB8C5B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +271,7 @@
 				TargetAttributes = {
 					2DB2CEF71C47283A00E694A4 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = TUCZH33VDS;
 					};
 					2DB2CF0E1C47283A00E694A4 = {
 						CreatedOnToolsVersion = 7.2;
@@ -232,8 +308,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DB2CF091C47283A00E694A4 /* LaunchScreen.storyboard in Resources */,
 				2DB2CF061C47283A00E694A4 /* Assets.xcassets in Resources */,
+				2DB2CF301C47298900E694A4 /* Podfile in Resources */,
 				2DB2CF011C47283A00E694A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +330,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8DB440332B2740C2A15D4A97 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96D7243FF3D0EEB9A6DB8C5B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2F4DC7D802C2EC56DCB7BBC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2DB2CEF41C47283A00E694A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DB2CEFE1C47283A00E694A4 /* ViewController.swift in Sources */,
+				2DB2CEFE1C47283A00E694A4 /* PrincipalViewController.swift in Sources */,
+				2D3F15D51C4895A400497867 /* AppsDetailsViewController.swift in Sources */,
+				2D13FD671C473D11006E06CB /* AppsTableViewController.swift in Sources */,
+				2D13FD651C4738C3006E06CB /* CategoriesListTableViewController.swift in Sources */,
 				2DB2CEFC1C47283A00E694A4 /* AppDelegate.swift in Sources */,
+				2DB2CF2E1C47294900E694A4 /* WebService.swift in Sources */,
+				2D9FFEDF1C49F9D40076F0BD /* AppsGridCollectionViewController.swift in Sources */,
+				2D9FFEE11C4ADB480076F0BD /* PopoverViewController.swift in Sources */,
+				F43648B01C4D5BD500AB553D /* CategoriesGridCollectionViewController.swift in Sources */,
 				2DB2CF041C47283A00E694A4 /* AppStoreByNelsonB.xcdatamodeld in Sources */,
+				2DF14C281C4C653500FA6FD3 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +435,6 @@
 				2DB2CF001C47283A00E694A4 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2DB2CF071C47283A00E694A4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2DB2CF081C47283A00E694A4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -401,23 +525,33 @@
 		};
 		2DB2CF241C47283A00E694A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFAD6A9BA8A5422D914CF5F5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AppStoreByNelsonB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NelsonB.AppStoreByNelsonB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		2DB2CF251C47283A00E694A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A041CB805D1A6261769F720 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AppStoreByNelsonB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NelsonB.AppStoreByNelsonB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -488,6 +622,7 @@
 				2DB2CF251C47283A00E694A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DB2CF261C47283A00E694A4 /* Build configuration list for PBXNativeTarget "AppStoreByNelsonBTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +631,7 @@
 				2DB2CF281C47283A00E694A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DB2CF291C47283A00E694A4 /* Build configuration list for PBXNativeTarget "AppStoreByNelsonBUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +640,7 @@
 				2DB2CF2B1C47283A00E694A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
