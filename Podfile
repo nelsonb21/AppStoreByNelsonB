@@ -1,6 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '9.2'
-inhibit_all_warnings!
+use_frameworks!
 
 target 'AppStoreByNelsonB' do
     pod 'Alamofire', '~> 3.1.4'

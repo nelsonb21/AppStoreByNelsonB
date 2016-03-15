@@ -84,10 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods/Alamofire.framework"
-  install_framework "Pods/ChameleonFramework.framework"
+  install_framework "Pods-AppStoreByNelsonB/Alamofire.framework"
+  install_framework "Pods-AppStoreByNelsonB/ChameleonFramework.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods/Alamofire.framework"
-  install_framework "Pods/ChameleonFramework.framework"
+  install_framework "Pods-AppStoreByNelsonB/Alamofire.framework"
+  install_framework "Pods-AppStoreByNelsonB/ChameleonFramework.framework"
 fi

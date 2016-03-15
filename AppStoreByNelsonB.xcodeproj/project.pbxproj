@@ -23,6 +23,7 @@
 		2DB2CF301C47298900E694A4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2DB2CF2F1C47298900E694A4 /* Podfile */; };
 		2DF14C281C4C653500FA6FD3 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF14C271C4C653500FA6FD3 /* SplashViewController.swift */; };
 		47E45F1253DAD5F53CE0A96E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644437EC0DB7E5BBF77DB86B /* Pods.framework */; };
+		4AA8E01C365D38FBBD2F98BB /* Pods_AppStoreByNelsonB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C09A5037AB6D8C42979206 /* Pods_AppStoreByNelsonB.framework */; };
 		F43648B01C4D5BD500AB553D /* CategoriesGridCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43648AF1C4D5BD500AB553D /* CategoriesGridCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		2DB2CF2D1C47294900E694A4 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		2DB2CF2F1C47298900E694A4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2DF14C271C4C653500FA6FD3 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		49C09A5037AB6D8C42979206 /* Pods_AppStoreByNelsonB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppStoreByNelsonB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		644437EC0DB7E5BBF77DB86B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A041CB805D1A6261769F720 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CFAD6A9BA8A5422D914CF5F5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47E45F1253DAD5F53CE0A96E /* Pods.framework in Frameworks */,
+				4AA8E01C365D38FBBD2F98BB /* Pods_AppStoreByNelsonB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				644437EC0DB7E5BBF77DB86B /* Pods.framework */,
+				49C09A5037AB6D8C42979206 /* Pods_AppStoreByNelsonB.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -343,7 +347,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppStoreByNelsonB/Pods-AppStoreByNelsonB-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		96D7243FF3D0EEB9A6DB8C5B /* Copy Pods Resources */ = {
@@ -358,7 +362,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppStoreByNelsonB/Pods-AppStoreByNelsonB-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B2F4DC7D802C2EC56DCB7BBC /* Check Pods Manifest.lock */ = {
