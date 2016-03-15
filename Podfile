@@ -2,10 +2,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '9.2'
 use_frameworks!
 
-target 'AppStoreByNelsonB' do
-    pod 'Alamofire', '~> 3.1.4'
-    pod 'ChameleonFramework/Swift', '~> 2.0.6'
-end
+pod 'Alamofire', '~> 3.1.4'
+pod 'ChameleonFramework/Swift', '~> 2.0.6'
 
 post_install do |installer|
     installer.pods_project.targets.each do |target|
