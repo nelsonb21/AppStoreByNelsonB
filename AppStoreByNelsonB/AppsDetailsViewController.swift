@@ -57,6 +57,8 @@ class AppsDetailsViewController: UIViewController {
         
         self.detailAppSummary.text = self.appsDetails["summary"]!["label"] as? String
         self.detailAppRights.text = self.appsDetails["rights"]!["label"] as? String
+        
+        let x = self.getInt();
     }
 
     override func didReceiveMemoryWarning() {
@@ -74,6 +76,10 @@ class AppsDetailsViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    func getInt() -> Int {
+        fatalError()
+    }
     
     @IBAction func backButton(sender: UIBarButtonItem) {
         self.dismissViewControllerAnimated(true, completion: nil)
