@@ -289,7 +289,7 @@
 				TargetAttributes = {
 					2DB2CEF71C47283A00E694A4 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = TUCZH33VDS;
+						DevelopmentTeam = SHCLPJTU4V;
 					};
 					2DB2CF0E1C47283A00E694A4 = {
 						CreatedOnToolsVersion = 7.2;
@@ -554,7 +554,7 @@
 				);
 				INFOPLIST_FILE = AppStoreByNelsonB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.NelsonB.AppStoreByNelsonB;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Koombea.BuddyBuildTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
@@ -575,7 +575,7 @@
 				);
 				INFOPLIST_FILE = AppStoreByNelsonB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.NelsonB.AppStoreByNelsonB;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Koombea.BuddyBuildTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
