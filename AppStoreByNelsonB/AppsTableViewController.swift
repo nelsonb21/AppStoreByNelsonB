@@ -18,6 +18,7 @@ class AppsTableViewController: UITableViewController {
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "updateAppsArray",name:"loadApps", object: nil)
         self.tableView?.rowHeight = 64.0
+        let x = 1
     }
 
     override func didReceiveMemoryWarning() {
